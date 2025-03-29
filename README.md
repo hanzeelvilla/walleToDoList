@@ -26,8 +26,8 @@ npm run dev
 
 ## Funciones
 
-[]  Crear tareas
-[]  Listar tareas
-[]  Actualizar tareas
-[]  Eliminar tareas
-[]  Usar endpoints 
+- [ ]   Crear tareas
+- [ ]   Listar tareas
+- [ ]   Actualizar tareas
+- [ ]   Eliminar tareas
+- [ ]   Usar endpoints 
