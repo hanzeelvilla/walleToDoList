@@ -57,8 +57,15 @@ input {
   align-items: start;
 }
 
-.input-container {
+.input-container {  
   display: flex;
+  align-items: center;
+}
+
+.addIcon {
+  width: 60px;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 .icon {
@@ -74,4 +81,24 @@ input {
   align-items: center;
   width: 400px;
   padding: 20px;
+}
+
+@media (max-width: 576px) {
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+  }
+
+  .input-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .todo {
+    width: 85%;
+    flex-wrap: wrap;
+  }
 }

@@ -12,7 +12,7 @@ function App() {
         <label htmlFor="todo">Add a To-Do</label>
         <div className="input-container">
           <input type="text" name="todo"/>
-          <img src={addIcon} alt="Add icon" className="icon"/>
+          <img src={addIcon} alt="Add icon" className="addIcon"/>
         </div>
         </div>
         <div className="todo">
